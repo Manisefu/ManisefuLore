@@ -1,38 +1,5 @@
-.beautiful {color: #ffffff;
-  background-color: black;
-}
-
-p {
-  color:red;
-  background-color: #a1f442;
-}
-
-.nice,.nice *{
-border: 2px solid black;
-border-spacing:0;
-border-collapse: collapse;
-}
-
-.header {
-  background-color: gray;
-}
-
-#ourList {
-  background-color: blue;
-}
-
-li {
-  color: white;
-}
-
-.Middle {
-  border: solid;
-  padding: 5px;
-  margin: 10px;
-  width: 50%;
-  text-align: center;
-}
-
-.out {
+#persons-table, #persons-table * {
+  border-spacing: 0;
+  border-collapse: collapse;
   border: solid;
 }
