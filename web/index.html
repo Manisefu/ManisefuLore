@@ -1,4 +1,16 @@
 <!DOCTYPE html>
+<html>
+<body>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Datum und Uhrzeit anzeigen</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -13,10 +25,11 @@
     <h1>People Who Died in 2011</h1>
     <p>
    Here is a list of famous and not so famous people who died in 2011. This list was extracted from Wikipedia.</p>
-   <button type="button" value="actor" id="redButton">Actors</button>
-     <button type="button" value="austrian" id="greenButton">Austrians</button>
-     <button type="button" value="auto" id="greenButton">Auto*</button>
- <button type="reset" value="reset" id="blueButton">Reset</button>
+   <button type="button" value="actor" class="redButton">Schauspieler</button>
+   <button type="button" value="Briten" class="purpleButton">Briten</button>
+     <button type="button" value="austrian" class="greenButton">Österreicher</button>
+     <button type="button" value="auto" class="yellowButton">Auto*</button>
+ <button type="reset" value="reset" class="blueButton">Reset</button>
    <table id="persons-table">
      <tr class="table-headings">
        <th>Birth Year</th>
